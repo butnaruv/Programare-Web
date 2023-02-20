@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lighter-background {
+  background-image: url("utils/lighter-background.JPG");
+  height: 100vh;
+  width: 70%;
+}
+
+.darker-background {
+  background-image: url("utils/darker-background.png");
+  background-color: #f2e1cf;
+  height: 100vh;
+  width: 30%;
+}
+
+nav {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: 15vh;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #e06331;
+  text-decoration: none;
+}
+
+.nav-img img {
+  width: 50px;
+  height: auto;
+  position: relative;
+  bottom: 15px;
+  color: #e06331;
+}
+
+.nav-darker-img img {
+  width: 26px;
+  height: auto;
+}
+
+.title-text {
+  margin-top: 40px;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-weight: bolder;
+  text-align: center;
+  color: #e06331;
+  font-size: 5.5em;
+  position: absolute;
+  top: 25vh;
+  left: 29vh;
+}
+
+.text {
+  font-family: 'Raleway';
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  position: relative;
+  margin-top: 40vh;
+  padding-left: 180px;
+  padding-right: 370px;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  color: #f2e1cf;
+  text-align: right;
+  font-weight: bolder;
+  float: right;
+  font-size: 20px;
+  padding-right: 100px;
+}
+
+.phone-image img {
+  position: absolute;
+  top: 15%;
+  left: 64%;
+  width: 14%;
+}
+
+.capsuna1 img {
+  position: absolute;
+  right: 209vh;
+  bottom: 5vh;
+  width: 10%;
+}
+
+.capsuna2 {
+  position: absolute;
+  right: 100vh;
+  bottom: 80vh;
+
+}
+
+.para img {
+  position: absolute;
+  left: 100vh;
+  bottom: 0;
+  width: 10%;
+}
+
+button {
+  padding: 5px 20px;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 30px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 70vh;
+
+}
+
+.shop-now-button {
+  background-color: #e06331;
+  color: #f2e1cf;
+  font-weight: bolder;
+  left: 35vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.learn-more-button {
+  background-color: #f2e1cf;
+  color: #e06331;
+  font-weight: bolder;
+  left: 65vh;
+}
