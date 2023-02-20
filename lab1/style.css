@@ -83,8 +83,8 @@ nav a {
   font-size: 12px;
   position: relative;
   margin-top: 40vh;
-  padding-left: 180px;
-  padding-right: 370px;
+  padding-left: 170px;
+  padding-right: 350px;
 }
 
 .vertical-text {
@@ -106,7 +106,7 @@ nav a {
 
 .capsuna1 img {
   position: absolute;
-  right: 209vh;
+  right: 203vh;
   bottom: 5vh;
   width: 10%;
 }
@@ -122,34 +122,119 @@ nav a {
   position: absolute;
   left: 100vh;
   bottom: 0;
-  width: 10%;
+  width: 14%;
 }
 
 button {
-  padding: 5px 20px;
+  padding: 5px 13px;
   border-color: black;
   border-width: 3px;
   border-radius: 30px;
+  border-style: solid;
   font-family: 'Raleway';
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
-  position: absolute;
-  top: 70vh;
-
 }
+
 
 .shop-now-button {
   background-color: #e06331;
   color: #f2e1cf;
   font-weight: bolder;
-  left: 35vh;
-  padding-left: 30px;
-  padding-right: 30px;
+  left: 38vh;
+  position: absolute;
+  top: 70vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .learn-more-button {
   background-color: #f2e1cf;
   color: #e06331;
   font-weight: bolder;
-  left: 65vh;
+  position: absolute;
+  top: 70vh;
+  left: 61vh;
+}
+
+.section-2 {
+  display: flex;
+  background-image: url("utils/orange-background.png");
+  height: 80vh;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.our-promise-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.our-promise {
+  font-size: 1.8em;
+  font-weight: bolder;
+  padding-top: 70px;
+}
+
+.locally-sourced-products {
+  text-align: center;
+  font-size: 5em;
+  color: #f2e1cf;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* padding-top:15px; */
+}
+
+.locally-text {
+  text-align: center;
+  font-size: 0.72em;
+  width: 40%;
+  color: #f2e1cf;
+  padding-top: 20px
+}
+
+.learn-more-button-locally {
+  background-color: #f2e1cf;
+  color: #e06331;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.container-image-locally-1 {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  justify-content:space-around;
+}
+
+.banana img{
+  width: 90%;
+  position: relative;
+  left: 10%;
+  
+}
+
+.background-points-1 img{
+  width: 70%;
+  position: relative;
+  right: 30%;
+}
+.container-image-locally-2 {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  justify-content:space-around;
+}
+.mango img {
+  position: relative;
+  top: -15%;
+}
+
+.background-points-2 img{
+  width: 70%;
+  position: relative;
+  left: 40%;
+ 
 }
