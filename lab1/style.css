@@ -2,7 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway';
-  font-weight: bold;
+  
+
+
+  /* font-size: 62.5%; */
+  /* default 16px => 10px */
+  /* 1rem = 10px */
 }
 
 .flex-container {
@@ -102,6 +107,8 @@ nav a {
   top: 15%;
   left: 64%;
   width: 14%;
+  filter: drop-shadow(2px 10px 3px black) 
+          drop-shadow(-2px -2px 0 black);
 }
 
 .capsuna1 img {
@@ -295,38 +302,41 @@ button {
   border: 2px solid black;
   border-radius: 10px;
 }
+
 .fruit-image img {
   height: auto;
   max-width: 40%;
   object-fit: contain;
 }
 
-#lamaie{
+#lamaie {
   max-width: 70%;
 }
 
-#ananas{
+#ananas {
   max-width: 30%;
 }
+
 .fruit-type {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
-.fruit-type h5{
+.fruit-type h5 {
   color: #000;
   font-size: 16px;
   font-weight: bolder;
   margin: 0;
   margin-top: 25px;
 }
-.fruit-type h6{
+
+.fruit-type h6 {
   color: #e06331;
-  margin:0;
+  margin: 0;
 }
 
-.add-to-card-btn button{
+.add-to-card-btn button {
   padding: 4px 9px;
   font-size: 10px;
   font-weight: bolder;
@@ -336,3 +346,66 @@ button {
   right: 22px;
 }
 
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.upper-section-faq {
+  display: flex;
+  background-image: url(utils/orange-background.png);
+  height: 85vh;
+  width: 100%;
+}
+
+.lower-section-faq {
+  background-image: url(utils/yellow-background.png);
+  background-color: #ff6329;
+  height: 15vh;
+  width: 100%;
+}
+
+.faqs-image{
+  display: flex;
+  align-items: center;
+}
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.faqs-title {
+  color: #f2e1cf;
+  font-size: 6rem;
+  position: relative;
+  top: 3rem;
+  left: 6rem;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: #f2e1cf;
+  height: 50%;
+  font-size: 1.2rem;
+  position: relative;
+  top: 3rem;
+  left: 6rem;
+}
+
+.qstn {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f2e1cf;
+  padding-bottom: 1px;
+  width: 70%;
+}
+
+.plus {
+  font-size: 2.2rem;
+}
