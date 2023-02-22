@@ -57,6 +57,7 @@ nav a {
   position: relative;
   bottom: 15px;
   color: #e06331;
+  filter: invert(40%) sepia(12%) saturate(4944%) hue-rotate(341deg) brightness(100%) contrast(93%);
 }
 
 .nav-darker-img img {
